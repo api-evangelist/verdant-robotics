@@ -1,7 +1,20 @@
 aid: verdant-robotics
 name: Verdant Robotics
-description: Verdant Robotics is a company surfaced as a portfolio company of dcvc and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Verdant Robotics is an agricultural robotics company building precision
+  farming systems for specialty crop growers. Its flagship SharpShooter uses
+  "Aim & Apply" technology - machine learning and computer vision that identify
+  crops and weeds in real time, build a three-dimensional map of the field, and
+  deliver microliter-precise applications directly onto weeds without contacting
+  the crop, doing over 240 targeted applications per second. The Robotics-as-a-
+  Service platform reduces herbicide use by up to 99% and manual labor costs by
+  up to 85% across carrots, leafy greens, cabbage, onions, and grass seed and
+  sod production. Founded by leaders from the self-driving vehicle industry and
+  commercial agriculture, Verdant is backed by DCVC. This profile was surfaced
+  as a DCVC portfolio company; Verdant publishes no public developer API,
+  developer portal, or API documentation - its GitHub organization hosts
+  robotics tooling and forks (cbuf message serialization, Jetson build scripts,
+  YOLO/ultralytics forks) rather than a product API.
 url: https://raw.githubusercontent.com/api-evangelist/verdant-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +22,51 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+image: https://cdn.prod.website-files.com/6792b4ac8a0083e26da102a8/67a54aabe7815482e4fb8139_open-graph-2.webp
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Agriculture
+- Robotics
+- Precision Agriculture
+- AgTech
+- Machine Learning
+- Computer Vision
+- Autonomous Systems
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/verdant-robotics-domain-security.yml
+- type: Website
+  url: https://www.verdantrobotics.com/
+- type: Blog
+  url: https://www.verdantrobotics.com/news-events
+- type: Support
+  url: https://www.verdantrobotics.com/faqs
+- type: GitHubOrganization
+  url: https://github.com/Verdant-Robotics
+- type: PrivacyPolicy
+  url: https://www.verdantrobotics.com/privacy-policy
+- type: TermsOfService
+  url: https://www.verdantrobotics.com/terms-of-service
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
