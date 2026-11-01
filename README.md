@@ -64,6 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Verdant Robotics is a company surfaced as a portfolio company of dcvc and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Verdant Robotics is an agricultural robotics company building precision farming systems for specialty crop growers. Its flagship SharpShooter uses "Aim & Apply" technology - machine learning and computer vision that identify crops and weeds in real time, build a three-dimensional map of the field, and deliver microliter-precise applications directly onto weeds without contacting the crop, doing over 240 targeted applications per second. The Robotics-as-a- Service platform reduces herbicide use by up to 99% and manual labor costs by up to 85% across carrots, leafy greens, cabbage, onions, and grass seed and sod production. Founded by leaders from the self-driving vehicle industry and commercial agriculture, Verdant is backed by DCVC. This profile was surfaced as a DCVC portfolio company; Verdant publishes no public developer API, developer portal, or API documentation - its GitHub organization hosts robotics tooling and forks (cbuf message serialization, Jetson build scripts, YOLO/ultralytics forks) rather than a product API.
 
-Backed by: dcvc
+**Areas:** Company · Agriculture · Robotics · Precision Agriculture · AgTech · Machine Learning · Computer Vision · Autonomous Systems
+
+## Verdant Robotics on APIs.io
+
+Everything profiled for Verdant Robotics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/verdant-robotics/](https://apis.io/providers/verdant-robotics/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Verdant Robotics Domain Security](https://apis.io/security/verdant-robotics/verdant-robotics-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.verdantrobotics.com/)
+- [Support](https://www.verdantrobotics.com/faqs)
+- [Blog](https://www.verdantrobotics.com/news-events)
+- [Terms of service](https://www.verdantrobotics.com/terms-of-service)
+- [Privacy policy](https://www.verdantrobotics.com/privacy-policy)
+- [GitHub](https://github.com/Verdant-Robotics)
+
+## API Evangelist rating
+
+**Kin Score 10.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/verdant-robotics/](https://apis.io/providers/verdant-robotics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Verdant Robotics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/verdant-robotics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
